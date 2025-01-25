@@ -1,13 +1,19 @@
 import { useState } from 'react'
 // import Login from './components/Login'
 import Home from './components/Home'
+import Navigation from './components/homeComponents/Navigation'
 
 function App() {
 	const [pageIndex, setPageIndex] = useState(0)
 
+	const auto = <Navigation />
+	
+
 	switch (pageIndex) {
 		case 1:
-			// return 
+			return <div>
+				{auto}
+			</div>
 			break;
 		case 2:
 			// code block
@@ -19,7 +25,10 @@ function App() {
 			// 		<Login></Login>
 			// 	</div>
 			// )
-			return <Home></Home>
+			return <div>
+				{auto}
+				<Home />
+			</div>
 	}
 }
 

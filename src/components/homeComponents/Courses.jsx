@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function Courses() {
     return (
-        <div>Courses</div>
+        <div>
+            <h1>
+                Courses
+            </h1>
+        </div>
     )
 }
