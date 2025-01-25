@@ -13,16 +13,6 @@ function App() {
 
 	switch (pageIndex) {
 		case 1:
-			return <div>
-				{auto}
-				<Courses />
-			</div>
-			break;
-		case 2:
-			// code block
-			break;
-		default:
-			// return <div className='grid grid-cols-2'>
 			return <div className='grid grid-cols-[max-content_4fr] gap-x-4"'>
 				<div>
 					{auto}
@@ -31,10 +21,18 @@ function App() {
 					<NearMe />
 				</div>
 			</div>
-		// return <div>
-		// 	{auto}
-		// 	<Home />
-		// </div>
+			
+		case 2:
+			return <div>
+				{auto}
+				<Courses />
+			</div>
+			
+		default:
+			return <div>
+				{auto}
+				<Home />
+			</div>
 	}
 }
 
