@@ -6,15 +6,21 @@ body {
 }
 
 h1 {
-    color: #F39C84;
     font-weight: 400;
 }
 
 h2 {
-    color: #CFABED;
     letter-spacing: 2px;
 }
 
 .k2d {
     font-family: 'K2D';
+}
+
+.orange {
+    color: #F39C84;
+}
+
+.purple {
+    color: #CFABED;
 }
