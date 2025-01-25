@@ -5,8 +5,11 @@ export default function Header(props) {
 
     return (
         <div>
-            <h1>{title}</h1>
-            <h2>{subtitle}</h2>
+            <div>
+                <h1 className='font-bold'>{title}</h1>
+                <h2>{subtitle}</h2>
+            </div>
+            <hr />
         </div>
     )
 }
