@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className='grid grid-cols-2'>
             <div>
-                <Header title='Study App' subtitle='     Bringing Students Together' />
+                <Header title='Study App' subtitle='Bringing Students Together' style_h1='text-center transform -translate-x-10' style_h2='transform translate-x-10' />
                 <Courses />
 
             </div>
