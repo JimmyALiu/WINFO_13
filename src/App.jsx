@@ -8,7 +8,7 @@ import NearMe from './components/homeComponents/NearMe'
 function App() {
 	const [pageIndex, setPageIndex] = useState(0)
 
-	const auto = <Navigation />
+	const auto = <Navigation setPageIndex={setPageIndex} />
 
 
 	switch (pageIndex) {
