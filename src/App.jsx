@@ -21,7 +21,7 @@ function App() {
 					<NearMe />
 				</div>
 			</div>
-			
+
 		case 2:
 			return <div>
 				{auto}
@@ -29,7 +29,7 @@ function App() {
 			</div>
 			
 		default:
-			return <div>
+			return <div className='grid grid-cols-[max-content_4fr]'>
 				{auto}
 				<Home />
 			</div>
