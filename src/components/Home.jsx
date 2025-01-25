@@ -7,9 +7,9 @@ import Courses from './homeComponents/Courses'
 export default function Home() {
   return (
     <div>
+        <Navigation />
         <Header title='Study App' />
         <Courses />
-        <Navigation />
         <Activities />
     </div>
   )

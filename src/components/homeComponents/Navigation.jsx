@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Navigation() {
     return (
-        <div>Navigation</div>
+        <div className='bg-gray-300 max-w-20 min-h-screen'>
+            
+        </div>
     )
 }
