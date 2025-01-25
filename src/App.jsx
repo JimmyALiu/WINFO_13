@@ -1,5 +1,6 @@
 import { useState } from 'react'
 // import Login from './components/Login'
+import Home from './components/Home'
 
 function App() {
 	const [pageIndex, setPageIndex] = useState(0)
@@ -18,7 +19,7 @@ function App() {
 			// 		<Login></Login>
 			// 	</div>
 			// )
-			return <p>homepage</p>
+			return <Home></Home>
 	}
 }
 
