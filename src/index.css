@@ -17,8 +17,17 @@ h2 {
     font-family: 'K2D';
 }
 
+
+.bgOrange {
+    background-color: #F39C84;
+}
+
 .orange {
     color: #F39C84;
+}
+
+.bgPurple {
+    background-color: #CFABED;
 }
 
 .purple {
