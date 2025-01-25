@@ -4,14 +4,14 @@ import UWmap from '../imgs/UWmap.png'
 
 export default function NearMe() {
     return (
-        <div className='px-10 pt-10'>
+        <div className='px-10'>
             {/* <div className='h-30'>
                 <h1>
                     Friends Near Me
                 </h1>
             </div> */}
 
-            <Header title='Friends Near Me' subtitle='Find fellow classmates or other students studying near you!'></Header>
+            <Header title='Friends Near Me' subtitle='> Find fellow classmates or other students studying near you!'></Header>
 
             <div className='pt-10, h-100%'>
 
@@ -25,7 +25,7 @@ export default function NearMe() {
                         </div>
                     </div>
                     <div class="bg-red-100 col-span-1">
-                        <img className='m-4 h-[750px]' src={UWmap}/>
+                        <img className='m-4 h-[700px]' src={UWmap}/>
                     </div>
                 </div>
                 
