@@ -4,11 +4,16 @@ import Header from './homeComponents/Header'
 import Courses from './homeComponents/Courses'
 
 export default function Home() {
-  return (
-    <div>
-        <Header title='Study App' />
-        <Courses />
-        <Activities />
-    </div>
-  )
+    return (
+        <div className='grid grid-cols-2'>
+            <div>
+                <Header title='Study App' subtitle='     Bringing Students Together' />
+                <Courses />
+
+            </div>
+            <div>
+                <Activities />
+            </div>
+        </div>
+    )
 }
