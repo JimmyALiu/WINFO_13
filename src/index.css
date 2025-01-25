@@ -5,10 +5,6 @@ body {
     background-color: white;
 }
 
-h1, h2 {
-    font-family: 'K2D';
-}
-
 h1 {
     color: #F39C84;
     font-weight: 400;
@@ -17,4 +13,8 @@ h1 {
 h2 {
     color: #CFABED;
     letter-spacing: 2px;
+}
+
+.k2d {
+    font-family: 'K2D';
 }

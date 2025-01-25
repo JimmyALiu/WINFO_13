@@ -6,8 +6,8 @@ export default function Header(props) {
     return (
     
         <div className='pt-2 pb-7'>
-            <h1 className={'font-bold text-[70px] max-h-22 uppercase ' + style_h1}>{title}</h1>
-            <h2 className={'font-thin text-[22px] text-center mt-0 min-h-auto leading-none ' + style_h2}>{subtitle}</h2>
+            <h1 className={'font-bold text-[70px] max-h-22 uppercase k2d ' + style_h1}>{title}</h1>
+            <h2 className={'font-thin text-[22px] text-center mt-0 min-h-auto leading-none k2d ' + style_h2}>{subtitle}</h2>
         </div>
     )
 }
