@@ -6,15 +6,20 @@ import calendar from '../../assets/Calendar.svg'
 import message from '../../assets/Message.svg'
 
 export default function Navigation(props) {
-    const { setPageIndex } = props
+    const { setPageIndex, pageIndex } = props
+
+    const navButtons = [home, map, calendar, message]
+    const classButtons = ['BIOL 180', 'CHEM 142', 'ENGL 186']
 
     return (
-        <div className='flex flex-col rounded-r-lg bg-white border-gray w-20 min-h-screen items-start gap-2 py-3'>
-            <Navbox setPageIndex={setPageIndex} index={0}><img src={home} alt='home' /></Navbox>
-            <Navbox setPageIndex={setPageIndex} index={1}><img src={map} alt='map' /></Navbox>
-            <Navbox setPageIndex={setPageIndex} index={2}><img src={calendar} alt='calendar' /></Navbox>
-            <Navbox setPageIndex={setPageIndex} index={3}><img src={message} alt='message' /></Navbox>
+        <div className='flex flex-col rounded-r-lg border-gray w-20 min-h-screen items-start gap-2 py-3'>
+            {navButtons.map((item, index) => {
+                return <Navbox key={index} setPageIndex={setPageIndex} pageIndex={pageIndex} index={index}><img src={item} /></Navbox>
+            })}
             <hr className='min-w-15 my-5 mx-auto bg-gray-200 border-1 dark:bg-gray-700' />
+            {classButtons.map((item, index) => {
+                return <Navbox key={index} setPageIndex={setPageIndex} index={0}><p className='text-center text-[13px] leading-tight white'>{item}</p></Navbox>
+            })}
         </div>
     )
 }
