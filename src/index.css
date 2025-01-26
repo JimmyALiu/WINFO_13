@@ -51,13 +51,21 @@ h3 {
     color: #F39C84;
     font-weight: 600;
     letter-spacing: 2px;
-    font-size:large;
+    font-size: large;
 }
 
 .dot {
     height: 50px;
     width: 50px;
     background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotBlack {
+    height: 35px;
+    width: 35px;
+    background-color: #000000;
     border-radius: 50%;
     display: inline-block;
 }

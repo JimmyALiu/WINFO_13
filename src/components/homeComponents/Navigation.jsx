@@ -9,7 +9,7 @@ export default function Navigation(props) {
     const { setPageIndex } = props
 
     return (
-        <div className='flex flex-col rounded-r-lg bg-gray-300 w-20 min-h-screen items-start gap-2 py-3'>
+        <div className='flex flex-col rounded-r-lg bg-white border-gray w-20 min-h-screen items-start gap-2 py-3'>
             <Navbox setPageIndex={setPageIndex} index={0}><img src={home} alt='home' /></Navbox>
             <Navbox setPageIndex={setPageIndex} index={1}><img src={map} alt='map' /></Navbox>
             <Navbox setPageIndex={setPageIndex} index={2}><img src={calendar} alt='calendar' /></Navbox>
