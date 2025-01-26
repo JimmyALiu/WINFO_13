@@ -6,8 +6,10 @@ body {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 400;    text-shadow:
+    2px 2px 0 #fff2f2;
 }
+
 
 h2 {
     letter-spacing: 2px;
@@ -52,7 +54,7 @@ h2 {
 }
 
 h3 {
-    color: #F39C84;
+    color: #511b7e;
     font-weight: 600;
     letter-spacing: 2px;
     font-size: large;
@@ -61,7 +63,7 @@ h3 {
 .dot {
     height: 50px;
     width: 50px;
-    background-color: #bbb;
+    background-color: #ffffff;
     border-radius: 50%;
     display: inline-block;
 }
