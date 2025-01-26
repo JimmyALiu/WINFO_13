@@ -1,7 +1,10 @@
 import React from 'react'
+import Active from '../../assets/Active.png'
 
 export default function Activities() {
     return (
-        <div>Activities</div>
+        <div className=''>
+            <img src={Active} alt='active' />
+        </div>
     )
 }
