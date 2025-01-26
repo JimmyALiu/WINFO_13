@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Home from './components/Home'
 import Navigation from './components/homeComponents/Navigation'
 import Courses from './components/homeComponents/Courses'
-import NearMe from './components/homeComponents/NearMe'
+import NearMe from './components/NearMe'
 
 function App() {
 	const [pageIndex, setPageIndex] = useState(0)

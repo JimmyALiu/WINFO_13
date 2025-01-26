@@ -1,25 +1,23 @@
 import React from 'react'
-import Header from './Header'
-import UWmap from '../imgs/UWmap.png'
-import redellipse from '../imgs/Ellipse 8.png'
-import whiteellipse from '../imgs/Ellipse 9.png'
-
-import avatar1 from '../imgs/Cool Kids Avatar.png'
-import avatar2 from '../imgs/Cool Kids Avatar2.png'
-import avatar3 from '../imgs/Cool Kids Avatar3.png'
-import avatar4 from '../imgs/Cool Kids Avatar4.png'
+import Header from './homeComponents/Header'
+import UWmap from '../assets/UWmap.png'
+import avatar1 from '../assets/Cool Kids Avatar.png'
+import avatar2 from '../assets/Cool Kids Avatar2.png'
+import avatar3 from '../assets/Cool Kids Avatar3.png'
+import avatar4 from '../assets/Cool Kids Avatar4.png'
 
 
 export default function NearMe() {
     return (
-        <div className='bg-[#eeeeee]'>
+        <div className='bg-gradient-to-b from-red-200 via-red-100 to-white'>
             {/* <div className='h-30'>
                 <h1>
                     Friends Near Me
                 </h1>
             </div> */}
 
-            <div className='bg-[#ffffff] px-10'>
+            <div className='px-10'>
+            {/* bg-[#ffffff]  */}
                 <Header className='px-10' title='Friends Near Me' subtitle='> Find fellow classmates or other students studying near you!' style_h2='transform -translate-x-70'></Header>
             </div>
 
@@ -65,7 +63,7 @@ export default function NearMe() {
                             </div>
 
                             <div className='pt-1 pb-5'>
-                                <h3 className='pb-6'>Location:</h3>
+                                <h3 className='pb-6'>Filter by Location:</h3>
                                 <div className='px-11'>
                                     <h2>
                                         <div className='pb-3'>
@@ -86,7 +84,7 @@ export default function NearMe() {
                             </div>
 
                             <div className='pb-5'>
-                                <h3 className='pb-6'>Classes:</h3>
+                                <h3 className='pb-6'>Filter by Class:</h3>
                                 <div className='pl-11'>
                                     <h2>
                                         <div className='pb-3'>
@@ -111,7 +109,7 @@ export default function NearMe() {
                         {/* <button>
                             <img src={whiteellipse} />
                         </button> */}
-                        <img className='my-3 ml-3 mr-2 h-[735px]' src={UWmap} />
+                        <img className='my-3 ml-3 mr-2 flex flex-items' src={UWmap} />
                     </div>
                 </div>
 
