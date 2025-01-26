@@ -2,7 +2,7 @@ import { useState } from 'react'
 // import Login from './components/Login'
 import Home from './components/Home'
 import Navigation from './components/homeComponents/Navigation'
-import NearMe from './components/homeComponents/NearMe'
+import NearMe from './components/NearMe'
 import Calendar from './components/Calendar'
 import Messages from './components/Messages'
 
