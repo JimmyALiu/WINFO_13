@@ -25,7 +25,11 @@ function App() {
 		case 2:
 			return <div>
 				{auto}
-				<Courses />
+			</div>
+
+		case 3:
+			return <div>
+				{auto}
 			</div>
 			
 		default:

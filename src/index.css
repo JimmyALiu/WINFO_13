@@ -22,6 +22,11 @@ h2 {
     background-color: #F39C84;
 }
 
+.bgOrange:hover {
+    background-color: #e4947e;
+}
+
+
 .orange {
     color: #F39C84;
 }
@@ -55,4 +60,4 @@ h3 {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-  }
+}
